@@ -1,0 +1,90 @@
+body{
+  font-size:20px;
+  padding: 25px;
+  background-color: #fff8f3;
+}
+h1{
+  font-family: Arial, 'Helvetica Neue', Helvetica, Sans-Serif;
+  font-size: 40px;
+  color: black;
+}
+p{
+  font-family: Arial, 'Helvetica Neue', Helvetica, Sans-Serif;
+  font-size: 15px;
+}
+.title {
+	color: #db5275;
+}
+.start-title {
+	color: #db5275;
+	text-align: center;
+	font-size: 80px;
+}
+.start-sub-title {
+	color: #db5275;
+	text-align: center;
+	font-size: 40px;
+}
+.sub-title {
+  font-family: Arial, 'Helvetica Neue', Helvetica, Sans-Serif;
+  font-size: 25px;  
+}
+.instruction {
+  font-family: Arial, 'Helvetica Neue', Helvetica, Sans-Serif;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+button {
+  background-color: #e2648e;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+}
+button:focus {
+    outline: blue auto 5px; 
+}
+button.nav {
+  background-color: white;  
+  color: black;
+}
+button.nav:focus {
+    outline: red auto 5px; 
+}
+.three-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.four-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.two-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  row-gap: 20px;
+  column-gap: 20px;
+}
